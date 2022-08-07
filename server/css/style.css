@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'M PLUS 1p', sans-serif;
+    color: #4D4D4D;
+}
+
+body {
+    margin: 0;
+    padding: 0 4%;
+}
+
+.button_area {
+    margin-top: 20px;
+}
+
+.button_area {
+    display: flex;
+    justify-content: space-around;
+}
+
+.start_button {
+    border-radius: 30px;
+    background: #e7f1f8;
+    padding: 15px 0;
+    width: 180px;
+    color: #000000;
+    letter-spacing: 0.5rem;
+    text-indent: 0.5rem;
+    border: 1px solid#000000;
+}
+
+.finish_button {
+    display: inline-block;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px 0;
+    width: 180px;
+    background: #faeaea;
+    color: #000000;
+    text-decoration: none;
+    border: 1px solid#000000;
+}
+
+/* .start_button,
+.finish_button {
+    text-align: center;
+    padding: 15px 0;
+    width: 48%;
+    background: #000000;
+    color: #FFFFFF;
+    border-radius: 30px;
+    text-decoration: none; */
+
+.front_page {
+    background-color: #f8f4f9;
+    border-radius: 10px;
+    width: 500px;
+    /* height: 400px; */
+    margin: 50px auto;
+    padding: 50px;
+}
+
+/*header.php*/
+/* .reservation_title{
+    color:#bd7cad;
+}  */
+
+#number {
+    border: 1px solid #000000;
+}
+
+#password {
+    border: 1px solid #000000;
+}
+
+/*reservation*/
+
+.name {
+    border: 1px solid #000000;
+    width: 160px;
+}
+
+.time_wapper {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.starttime_wrapper {
+    margin-right: 16px;
+}
+
+.starttime {
+    border: 1px solid #000000;
+    width: 160px;
+
+}
+
+.finishtime {
+    border: 1px solid #000000;
+    width: 160px;
+}
+
+.day_number {
+    border: 1px solid #000000;
+    width: 160px;
+}
+
+.car_type {
+    border: 1px solid #000000;
+}
+
+.register_button_wrapper {
+    text-align: right;
+}
+
+
+.register_button {
+    border: 1px solid rgb(240, 109, 255);
+    background: rgb(250, 201, 255);
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.register_button:hover {
+    background: rgb(240, 109, 255);
+}
+
+.front_page label {
+    font-size: 20px;
+}
+
+.front_page input {
+    margin-bottom: 10px;
+}
+
+/* reservation_list */
+.reservation_table {
+    width: 80%;
+
+}
+
+.reservation_table tr th {
+    border: 1.2px solid #000000;
+    background: rgb(248, 227, 210);
+    text-align: center;
+    padding: 10px;
+}
+
+.reservation_table tr td {
+    border: 1.2px solid #000000;
+    text-align: center;
+}
+
+.reservation_table tr td p {
+    margin: 10px;
+}
+
+
+/* input_manage*/
+.input_manage {
+    border: 1px solid#000000;
+}
+
+.input_manage_page {
+    background-color: #f8f4f9;
+    border-radius: 10px;
+    width: 500px;
+    /* height: 400px; */
+    margin: 20px auto;
+    padding: 50px;
+}
+
+/**/
+.manage_table {
+    width: 80%;
+}
+
+.manage_table tr th {
+    border: 1.2px solid #000000;
+    background: rgb(199, 227, 235);
+    text-align: center;
+    padding: 8px;
+    /* width: 200px; */
+    
+}
+
+.manage_table tr td {
+    border: 1.2px solid #000000;
+    text-align: center;
+}
+
+.manage_table tr td p {
+    margin: 8px;
+}
